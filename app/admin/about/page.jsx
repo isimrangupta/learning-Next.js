@@ -1,6 +1,8 @@
+import style from '../admin.module.css'
+
 const About = () => {
   return (
-    <div>
+    <div className={style.aboutHearding}>
       Hello Admin About
     </div>
   )
