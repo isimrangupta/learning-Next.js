@@ -3,7 +3,7 @@ import thapa from "@/public/1.jpg"
 import Vinod from "@/public/two.jpg"
 const Service = () => {
   return (
-    <>
+    <section className="font-roboto">
       <h3>You are on the Service page</h3>
 
       <h2 className="text-center text-3xl font-bold mb-10">Our Team</h2>
@@ -91,7 +91,7 @@ const Service = () => {
 
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

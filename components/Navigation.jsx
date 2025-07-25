@@ -3,7 +3,7 @@ import Link from "next/link"
 const Navigation = () => {
   return (
     <>
-      <header className="flex gap-6 font-bold text-blue-700 mb-4">
+      <header className="flex gap-6 font-work text-blue-700 mb-4">
         <div>Diksha Logo</div>
         <ul className="flex text-xs  mt-1 gap-2 text-gray-600 w-[250px] justify-between">
           <li><Link href="/">Home</Link></li>
