@@ -1,6 +1,17 @@
 import Image from "next/image"
 import thapa from "@/public/1.jpg"
 import Vinod from "@/public/two.jpg"
+
+export const metadata = {
+  title: "Service Page",
+  description: "Meet our expert team members who provide various web development services.",
+  authors : [
+    {name: "Diksha Gupta"}, {name: "Gupta technical", url: "https://guptatechical.com"},
+  ],
+  keywords: ["nextjs", "reactjs", "fullstack", "web development", "team"]
+};
+
+
 const Service = () => {
   return (
     <section className="font-roboto">
