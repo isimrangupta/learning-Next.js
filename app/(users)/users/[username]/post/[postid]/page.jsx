@@ -1,14 +1,14 @@
 "use client"
-import { use } from "react";
+import { useParams } from "next/navigation";
 
-const SingleProfilePost = (props) =>{
-  console.log(props)
-  const user = use(props.params);
-  console.log(user)
+
+const SingleProfilePost = () =>{
+  const params = useParams();
+  console.log(params)
   return(
   <>
-    <h1>Name: {user.username}</h1>
-    <span>Post Id: {user.postid}</span>
+    <h1>Name: {params.username}</h1>
+    <span>Post Id: {params.postid}</span>
   </>
   )
 }
